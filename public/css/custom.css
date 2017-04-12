@@ -1,0 +1,218 @@
+﻿
+/*=================================
+    GENERAL STYLES
+ ===============================*/
+
+body {
+    font-family:Verdana;
+    line-height:30px;
+}
+.just-pad {
+    padding-bottom:40px;
+}
+.header-line {
+    font-size:35px;
+    padding:5px 50px 10px 50px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+.port-name {
+    font-size:25px;
+    padding-top:20px;
+    text-transform:uppercase;
+    font-weight:900;
+    padding-bottom:10px;
+}
+/*=================================
+    MENU STYLES
+ ===============================*/
+ #menu-button {
+    top: 10px;
+    left:15px;
+    position: fixed;
+    z-index: 1;
+     color:#fff;
+    text-decoration:none;
+    font-weight:900;
+  }
+
+#menu-close {
+    color:#fff;
+    text-decoration:none;
+    font-weight:900;
+    margin: 5px 5px 0 0;
+}
+
+.main-name a{
+    font-size:25px!important;
+    line-height:90px;
+    background-color:#000;
+    color:#fff!important;
+}
+    .main-name a:hover {
+       color:#fff!important; 
+       text-decoration:none;
+    }
+#sidebar-wrapper {
+    margin-left: -250px;
+    left: 0;
+    width: 250px;
+    background:#ddd;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.5s ease-in 0s;
+    -webkit-transition: all 0.5s ease-in 0s;
+    -moz-transition: all 0.5s ease-in 0s;
+    -ms-transition: all 0.5s ease-in 0s;
+    -o-transition: all 0.5s ease-in 0s;
+  }
+ #sidebar-wrapper.active {
+    left: 250px;
+    width: 250px;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    -ms-transition: all 0.5s ease-out 0s;
+    -o-transition: all 0.5s ease-out 0s;
+  }
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-nav li {
+  line-height: 60px;
+text-indent: 20px;
+border-bottom: 1px solid #EBEBEB;
+    
+  }
+  .copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+
+  .sidebar-nav li a,.sidebar-nav li a:hover, .sidebar-nav li a:focus {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform:uppercase;
+    color:#000;
+    
+  }
+   
+  /*=================================
+   HEADER SECTION STYLES
+ ===============================*/
+
+#home-sec {
+    background: url(../img/header.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+
+    #home-sec h1 {
+        font-size:50px;
+        padding:150px 50px 30px 50px;
+        text-transform:uppercase;
+        font-weight:900;
+        color:#fff;
+    }
+#home-sec p{
+    padding:20px 5px 20px 5px;
+    
+}
+    #home-sec .overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+    }
+
+      /*=================================
+   SERVICE SECTION STYLES
+ ===============================*/
+
+
+#services-sec {
+    padding-top:150px;
+    padding-bottom:40px;
+}
+
+.ser-icon {
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+   
+    height:150px;
+    width:150px;
+    border:8px solid #000;
+    padding-top:30px;
+}
+
+#services-sec h1{
+    font-size:20px;
+    padding-top:30px;
+    text-transform:uppercase;
+    font-weight:900;
+}
+
+#services-sec p{
+    padding:20px 5px 20px 5px;
+}
+ /*=================================
+   JUST SECTION STYLES
+ ===============================*/
+#just-sec {
+     background: url(../img/just.png) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+    #just-sec .overlay {
+         background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+    }
+#just-sec h1 {
+    font-size:30px;
+    text-transform:uppercase;
+    font-weight:900;
+    padding:60px 20px 60px 20px;
+    color:#fff;
+}
+    /*=================================
+   CONTACT STYLES
+ ===============================*/
+    #contact-sec {
+    background: url(../img/contact.jpg) no-repeat center center;
+padding: 0;
+-webkit-background-size: cover;
+background-size: cover;
+
+}
+
+    #contact-sec .overlay {
+        padding-top:60px;
+        background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+    }
+        #contact-sec h6 {
+            text-align:right;
+            padding-right:50px;
+        }
+
+.social-link a,.social-link a:hover{
+  color:rgba(255, 255, 255, 0.52);
+  text-decoration:none;
+
+}
